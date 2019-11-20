@@ -5,5 +5,12 @@ public class UserController {
         System.out.println("你好");
         System.out.println(1);
         System.out.println(true);
+
+
+        fun01();
+    }
+
+    private static void fun01(){
+        System.out.println("修改了文件");
     }
 }
